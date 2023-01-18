@@ -31,4 +31,6 @@ body{
     transform: rotate(90deg);
     transform-origin: 100%;
     box-shadow: 0px 0px 10px #51C4D3;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
