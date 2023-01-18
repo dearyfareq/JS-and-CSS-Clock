@@ -10,7 +10,7 @@ function setclock(){
     const minDeg = ((minute/60) * 360) + 90;
     document.getElementById("minutes").style.transform = `rotate(${minDeg}deg)`;
 
-    const hour = jetzt.getSeconds();
+    const hour = jetzt.getHours();
     const hourDeg = ((hour/12) * 360) + 90;
     document.getElementById("hours").style.transform = `rotate(${hourDeg}deg)`;
 }
